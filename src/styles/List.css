@@ -1,0 +1,65 @@
+.list-div {
+    width: 80%;
+    height: 60px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    /* border-left: 10px solid #632329; */
+    box-shadow: 0 2px 2px #0e090d;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.list-div .delete-box {
+    position: absolute;
+    height: 60px;
+    width: 10px;
+    background-color:#632329;
+}
+.list-div .delete-box:hover {
+    width:15px;
+}
+.list-div .delete-box2 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    height: 60px;
+    width: 70px;
+    background-color:#632329;
+}
+.click-div {
+    position: absolute;
+    align-items: center;
+    display: flex;
+}
+.noSelect {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.noSelect:focus {
+    outline: none !important;
+}
+.list-div .delete-box2 img {
+    width: 32px;
+    height: 32px;
+}
+.list-div p {
+    justify-self: flex-start;
+    font-size: 1.125rem;
+    margin-left: 20px;
+}
+.list-div .arrow {
+    margin-right: 20px;
+}
+.list-div .arrow:hover {
+    filter: invert(52%) sepia(26%) saturate(4942%) hue-rotate(327deg) brightness(96%) contrast(100%);
+}
+.list-div:hover {
+    background-color: #352432;
+}

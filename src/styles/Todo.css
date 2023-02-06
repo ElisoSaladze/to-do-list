@@ -1,0 +1,45 @@
+.todo-div {
+    justify-content: space-between;
+    height: 60px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: #352432;
+}
+.todo-parent {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.todo-parent ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.todo-div-child {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.todo-div input {
+    background: none;
+    border: none;
+    font-size: 1em;
+    margin-left: 10px;
+}
+.todo-div input:focus {
+    outline: none;
+}
+::placeholder {
+   color: #FEEDE1; 
+}
+.click-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.click-btn img:hover {
+    filter: invert(52%) sepia(26%) saturate(4942%) hue-rotate(327deg) brightness(96%) contrast(100%);
+}

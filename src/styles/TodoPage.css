@@ -1,0 +1,36 @@
+.div-button {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+.go-back {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.go-back button{
+    background: none;
+    border:none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.go-back img:hover {
+    /* fill: #F25551; */
+    filter: invert(52%) sepia(26%) saturate(4942%) hue-rotate(327deg) brightness(96%) contrast(100%);
+}
+.three-dots {
+    justify-content: center;
+    background: none;
+    border: none;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    background-color: #352432;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+.three-dots:hover {
+    background-color: #462730;
+}

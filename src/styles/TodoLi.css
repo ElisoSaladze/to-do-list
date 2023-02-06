@@ -1,0 +1,27 @@
+.todo-li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: #352432;
+    height: 60px;
+}
+.todo-li:hover {
+    background-color: #462730;
+}
+.todo-li-child {
+    display: flex;
+    align-items: center;
+}
+.todo-li-child li {
+    text-decoration: none;
+    list-style: none;
+    margin-left: 10px;
+}
+.check-btn {
+    background: none;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}

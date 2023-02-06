@@ -1,0 +1,26 @@
+.select-op {
+    color: #FEEDE1;
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+    padding-left: 0;
+    margin: 0;
+    background: #352432;
+    border: none;
+    height: 32px;
+    border-radius: 3px;
+    width: 150px;
+}
+.select {
+    margin-right: 40px;
+    width: 150px;
+    border-radius: 5px;
+    position: absolute;
+}
+.select-op option{
+    color: #FEEDE1;
+    height: 32px;
+}
+.select-op option:checked option:hover {
+    background: #462730 !important;
+}
