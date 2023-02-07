@@ -1,7 +1,7 @@
 {
   "name": "to-do-list",
   "version": "0.1.0",
-  "homepage": "http://wimpykido.github.io/Todo-List",
+  "homepage": "http://wimpykido.github.io/to-do-list",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
