@@ -45,3 +45,18 @@ h1 {
 .starter {
     display: none;
 }
+@media screen and (max-width : 670px) {
+  h1 {
+    font-size: 0.9rem;
+  }
+  .list {
+    font-size: 0.5rem;
+    width: 100px;
+    height: 25px;
+  }
+  .list img {
+    width: 15px;
+    height: auto;
+  }
+  
+}
