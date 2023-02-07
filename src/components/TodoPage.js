@@ -15,7 +15,7 @@ const TodoPage = () => {
     <div className='parent-div'>
       <div className='header-div'>
         <div className='go-back'>
-          <button onClick={() => navigate("/to-do-list")}><img src={arrow_left} alt="arrow-left" /></button>
+          <button onClick={() => navigate("/to-do-list/")}><img src={arrow_left} alt="arrow-left" /></button>
           <h3>New List</h3>
         </div>
         <div className='div-button'>

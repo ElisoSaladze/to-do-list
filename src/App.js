@@ -7,7 +7,7 @@ function App() {
   <div className="App">
     <Router>
         <Routes>
-          <Route path="/to-do-list" element={<Header />} />
+          <Route path="/to-do-list/" element={<Header />} />
           <Route path="/TodoPage" element={<TodoPage />} />
         </Routes>
       </Router>
